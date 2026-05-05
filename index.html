@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorteador de Números</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <div class="app-content">
+        <div class="content-left">
+          <section class="hero" aria-labelledby="page-title">
+            <header class="brand">
+              <img src="./icons/logo.svg" alt="Logo Numbers" />
+              <span>NUMBERS</span>
+            </header>
+
+            <p class="eyebrow">ONLINE - GRATUITO</p>
+            <h1 id="page-title">SORTEADOR DE NÚMEROS</h1>
+          </section>
+
+          <section class="info-list" aria-label="Informações sobre o sorteador">
+            <article class="info-item">
+              <img src="./icons/frame.svg" alt="" />
+              <div class="info-content">
+                <h2>Como funciona o sorteador de números?</h2>
+                <p>
+                  O sorteador utiliza um algoritmo de geração aleatória para
+                  criar números dentro do intervalo especificado pelo usuário.
+                </p>
+              </div>
+            </article>
+
+            <article class="info-item">
+              <img src="./icons/frame.svg" alt="" />
+              <div class="info-content">
+                <h2>Posso escolher o intervalo dos números?</h2>
+                <p>
+                  Sim, você pode definir os valores mínimo e máximo para o
+                  intervalo dos números sorteados.
+                </p>
+              </div>
+            </article>
+          </section>
+        </div>
+
+        <section class="sorter" aria-labelledby="sorter-title">
+          <header class="sorter-header">
+            <h2 id="sorter-title">QUERO SORTEAR:</h2>
+            <p>
+              defina o intervalo e a quantidade de números, clique em "Sortear"
+              e veja os resultados na tela. É rápido e fácil!
+            </p>
+          </header>
+
+          <form class="sorter-form">
+            <div class="fields-group">
+              <div class="field">
+                <label for="quantity">NÚMEROS</label>
+                <input id="quantity" name="quantity" type="number" value="2" />
+              </div>
+
+              <div class="field">
+                <label for="from">DE</label>
+                <input id="from" name="from" type="number" value="1" />
+              </div>
+
+              <div class="field">
+                <label for="to">ATÉ</label>
+                <input id="to" name="to" type="number" value="100" />
+              </div>
+            </div>
+
+            <label class="toggle">
+              <input type="checkbox" name="unique" />
+              <span>Não repetir número</span>
+            </label>
+
+            <button class="sorter-button" type="submit">SORTEAR</button>
+          </form>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
