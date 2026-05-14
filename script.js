@@ -15,7 +15,7 @@ const uniqueInput = form.querySelector('input[name="unique"]');
 
 const MAX_QUANTITY = 4;
 const RESULT_REVEAL_DELAY = 80;
-const RESULT_STAGE_DURATION = 1080;
+const RESULT_STAGE_DURATION = 1450;
 const RESULT_SEQUENCE_GAP = 140;
 const RESULT_HISTORY_LEAD = 140;
 const RESULT_HISTORY_SETTLE = 80;
