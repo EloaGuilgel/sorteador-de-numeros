@@ -6,7 +6,7 @@ Uma aplicacao web interativa para sortear numeros de forma rapida, bonita e intu
 
 ## Visualizar projeto
 
-[Acessar versao online](https://eloaguilgel.github.io/sorteador-de-numeros/)
+[Acessar versão online](https://eloaguilgel.github.io/sorteador-de-numeros/)
 
 ## Sobre o projeto
 
@@ -22,7 +22,7 @@ O **Sorteador de Numeros** foi desenvolvido com foco em uma experiencia simples 
 - Botao para sortear novamente com as mesmas configuracoes
 - Layout responsivo
 
-## Tecnologias utilizadas
+## Tecnologias usadas
 
 - `HTML5`
 - `CSS3`
@@ -50,7 +50,7 @@ git clone https://github.com/eloaguilgel/sorteador-de-numeros.git
 `-- style.css
 ```
 
-## Destaques da experiencia
+## Destaques da experiência
 
 - Interface com identidade visual propria
 - Fluxo rapido para novos sorteios
